@@ -34,3 +34,8 @@ Defining A Layout
 @section('content')
     <p>This is my body content.</p>
 @endsection
+
+
+Route::get('blade', function () {
+    return view('child');
+});
